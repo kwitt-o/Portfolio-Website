@@ -20,9 +20,10 @@ body {
     /* display: flex; */
     /* flex-direction: column;
     align-items: flex-end; */
-    /* background-image: url(images/backgroundd.png);
-    background-size: cover;
+    /* background-image: url(images/portrait.png);
+    background-size: 90%;
     background-position: center; */
+
 }
 
 .container {
@@ -37,7 +38,7 @@ nav {
 }
 
 .logo {
-    width: 140px;
+    width: 20%;
 }
 
 nav ul li {
@@ -384,9 +385,16 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/phone-background.png);
+        background-image: url(images/phone_background.png);
         background-size: cover;
         background-position: center;
+    }
+
+    .logo {
+        width: 150px;
+        float: left;
+        margin-right: auto;
+        margin-left: 0;
     }
 
     .headerText {
