@@ -17,12 +17,13 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column;
-    align-items: flex-end; */
-    /* background-image: url(images/portrait.png);
-    background-size: 90%;
-    background-position: center; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(images/Kwitt-mobile.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; */
 
 }
 
@@ -71,7 +72,7 @@ nav ul li a:hover::after {
 }
 
 .headerText {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
@@ -385,7 +386,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/phone_background.png);
+        background-image: url(images/Kwitt-mobile.jpg);
         background-size: cover;
         background-position: center;
     }
